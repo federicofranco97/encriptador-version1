@@ -42,14 +42,14 @@ public class ventanaPrincipal extends javax.swing.JFrame {
         setResizable(false);
         getContentPane().setLayout(null);
 
-        jButton1.setText("Encriptar");
+        jButton1.setText("Encriptar Mensaje");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(150, 100, 82, 32);
+        jButton1.setBounds(120, 100, 140, 32);
 
         jButton2.setText("Desencriptar");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
