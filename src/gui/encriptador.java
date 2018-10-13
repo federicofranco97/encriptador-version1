@@ -134,6 +134,7 @@ public class encriptador extends javax.swing.JFrame {
         txtO.setColumns(20);
         txtO.setRows(5);
         jScrollPane1.setViewportView(txtO);
+        txtO.setLineWrap(true);
 
         getContentPane().add(jScrollPane1);
         jScrollPane1.setBounds(43, 93, 320, 140);
@@ -150,6 +151,7 @@ public class encriptador extends javax.swing.JFrame {
         txtE.setColumns(20);
         txtE.setRows(5);
         jScrollPane2.setViewportView(txtE);
+        txtE.setLineWrap(true);
 
         getContentPane().add(jScrollPane2);
         jScrollPane2.setBounds(43, 293, 320, 130);

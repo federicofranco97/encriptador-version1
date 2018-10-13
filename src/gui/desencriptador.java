@@ -142,6 +142,7 @@ public class desencriptador extends javax.swing.JFrame {
         txtEncriptado.setRows(5);
         txtEncriptado.setAutoscrolls(false);
         jScrollPane1.setViewportView(txtEncriptado);
+        txtEncriptado.setLineWrap(true);
 
         getContentPane().add(jScrollPane1);
         jScrollPane1.setBounds(42, 59, 330, 150);
@@ -149,6 +150,7 @@ public class desencriptador extends javax.swing.JFrame {
         txtDesencriptado.setColumns(20);
         txtDesencriptado.setRows(5);
         jScrollPane2.setViewportView(txtDesencriptado);
+        txtDesencriptado.setLineWrap(true);
 
         getContentPane().add(jScrollPane2);
         jScrollPane2.setBounds(40, 273, 330, 130);
